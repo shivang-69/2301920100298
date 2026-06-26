@@ -32,7 +32,7 @@ export function PriorityInboxPage() {
   const [notifications, setNotifications] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [viewedList, setViewedList] = useState([]);
+  const [, setViewedList] = useState([]);
 
   // Fetch viewed IDs from localStorage on mount
   useEffect(() => {
